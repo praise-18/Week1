@@ -1,5 +1,3 @@
-C:
-
 #include <stdio.h>
 int main() {
     int arr[100], n, max;
@@ -12,7 +10,3 @@ int main() {
     printf("Largest element: %d\n", max);
     return 0;
 }
-Python:
-
-arr = list(map(int, input().split()))
-print("Largest element:", max(arr))
