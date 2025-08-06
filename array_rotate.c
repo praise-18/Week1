@@ -1,4 +1,3 @@
-C:
 #include <stdio.h>
 int main() {
     int arr[100], n, last;
@@ -13,7 +12,3 @@ int main() {
         printf("%d ", arr[i]);
     return 0;
 }
-Python:
-arr = list(map(int, input().split()))
-arr = [arr[-1]] + arr[:-1]
-print("Rotated array:", arr)
