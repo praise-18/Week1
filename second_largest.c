@@ -1,5 +1,3 @@
-C:
- 
 #include <stdio.h>
 int main() {
     int arr[100], n, first = -1, second = -1;
@@ -16,9 +14,3 @@ int main() {
     printf("Second largest: %d\n", second);
     return 0;
 }
-Python:
-
-arr = list(map(int, input().split()))
-arr = list(set(arr))
-arr.sort()
-print("Second largest:", arr[-2])
