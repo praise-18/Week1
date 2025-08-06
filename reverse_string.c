@@ -1,5 +1,3 @@
-C:
-
 #include <stdio.h>
 #include <string.h>
 int main() {
@@ -10,7 +8,3 @@ int main() {
         printf("%c", str[i]);
     return 0;
 }
-Python:
-
-s = input()
-print("Reversed:", s[::-1])
