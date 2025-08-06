@@ -1,5 +1,3 @@
-C:
-
 #include <stdio.h>
 int main() {
     int arr[100], n, sorted = 1;
@@ -15,7 +13,3 @@ int main() {
     printf(sorted ? "Sorted\n" : "Not sorted\n");
     return 0;
 }
-Python:
-
-arr = list(map(int, input().split()))
-print("Sorted" if arr == sorted(arr) else "Not sorted")
