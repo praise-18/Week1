@@ -1,5 +1,3 @@
-C:
-
 #include <stdio.h>
 #include <string.h>
 int main() {
@@ -15,8 +13,3 @@ int main() {
     printf(flag ? "Palindrome\n" : "Not Palindrome\n");
     return 0;
 }
-Python:
-
-s = input()
-print("Palindrome" if s == s[::-1] else "Not Palindrome")
-
