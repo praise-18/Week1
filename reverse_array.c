@@ -1,5 +1,3 @@
-C:
-
 #include <stdio.h>
 int main() {
     int n, arr[100];
@@ -10,7 +8,3 @@ int main() {
         printf("%d ", arr[i]);
     return 0;
 }
-Python:
-
-arr = list(map(int, input().split()))
-print(*arr[::-1])
